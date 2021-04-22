@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BwolingScoreCalculator", "BwolingScoreCalculator.csproj", "{257F661C-D15C-4C46-9F98-11B9F6ACF0D6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BwolingScoreCalculator.Api", "BwolingScoreCalculator.Api.csproj", "{257F661C-D15C-4C46-9F98-11B9F6ACF0D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BowlingScoreCalculator.Service", "..\BowlingScoreCalculator.Service\BowlingScoreCalculator.Service.csproj", "{AF8F76C6-172A-44D8-BA15-0DB0A3A31AA3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{257F661C-D15C-4C46-9F98-11B9F6ACF0D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{257F661C-D15C-4C46-9F98-11B9F6ACF0D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{257F661C-D15C-4C46-9F98-11B9F6ACF0D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF8F76C6-172A-44D8-BA15-0DB0A3A31AA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF8F76C6-172A-44D8-BA15-0DB0A3A31AA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF8F76C6-172A-44D8-BA15-0DB0A3A31AA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF8F76C6-172A-44D8-BA15-0DB0A3A31AA3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
