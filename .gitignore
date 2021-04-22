@@ -12,3 +12,7 @@ BowlingScoreCalculator.Service/obj/
 BowlingScoreCalculator.ServiceTests/bin/
 
 BowlingScoreCalculator.ServiceTests/obj/
+
+BowlingScoreCalculator.Domain/bin/
+
+BowlingScoreCalculator.Domain/obj/

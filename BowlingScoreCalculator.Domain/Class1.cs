@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace BowlingScoreCalculator.Service
+namespace BowlingScoreCalculator.Domain
 {
     public class Class1
     {
