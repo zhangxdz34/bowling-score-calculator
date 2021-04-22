@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BowlingScoreCalculator.Api"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BowlingScoreCalculator.Service", "..\BowlingScoreCalculator.Service\BowlingScoreCalculator.Service.csproj", "{AF8F76C6-172A-44D8-BA15-0DB0A3A31AA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BowlingScoreCalculator.ServiceTests", "..\BowlingScoreCalculator.ServiceTests\BowlingScoreCalculator.ServiceTests.csproj", "{537C2064-A5DA-4C51-8E5B-380AB6BE0BEF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BowlingScoreCalculator.Tests", "..\BowlingScoreCalculator.ServiceTests\BowlingScoreCalculator.Tests.csproj", "{537C2064-A5DA-4C51-8E5B-380AB6BE0BEF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BowlingScoreCalculator.Domain", "..\BowlingScoreCalculator.Domain\BowlingScoreCalculator.Domain.csproj", "{19A12EA6-F46F-4694-9A3B-EA51BD647A90}"
 EndProject
