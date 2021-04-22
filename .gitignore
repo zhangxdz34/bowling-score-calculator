@@ -8,3 +8,7 @@ BwolingScoreCalculator/obj/
 BowlingScoreCalculator.Service/bin/
 
 BowlingScoreCalculator.Service/obj/
+
+BowlingScoreCalculator.ServiceTests/bin/
+
+BowlingScoreCalculator.ServiceTests/obj/
