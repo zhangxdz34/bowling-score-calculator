@@ -38,6 +38,7 @@ namespace BowlingScoreCalculator.ServiceTests
 
             Assert.AreEqual(20, score);
 
+            Assert.IsTrue(bowling.FrameCompleted());
         }
 
         [Test]
@@ -52,6 +53,8 @@ namespace BowlingScoreCalculator.ServiceTests
             int score = bowling.GetScore();
 
             Assert.AreEqual(60, score);
+
+            Assert.IsTrue(bowling.FrameCompleted());
 
         }
 
@@ -70,6 +73,41 @@ namespace BowlingScoreCalculator.ServiceTests
             int score = bowling.GetScore();
 
             Assert.AreEqual(168, score);
+
+            Assert.IsTrue(bowling.FrameCompleted());
+        }
+
+        [Test]
+        public void Test_Bowling_Score_0_Expected_FrameNoteCompleted()
+        {
+            Bowling bowling = new Bowling();
+
+            int[] rolls = new int[] { 10, 10 };
+
+            bowling.AddRolls(rolls.ToList());
+
+            int score = bowling.GetScore();
+
+            Assert.AreEqual(0, score);
+
+            Assert.IsFalse(bowling.FrameCompleted());
+
+        }
+
+        [Test]
+        public void Test_Bowling_Score_30_Expected_FrameNoteCompleted()
+        {
+            Bowling bowling = new Bowling();
+
+            int[] rolls = new int[] { 10, 10, 10 };
+
+            bowling.AddRolls(rolls.ToList());
+
+            int score = bowling.GetScore();
+
+            Assert.AreEqual(30, score);
+
+            Assert.IsFalse(bowling.FrameCompleted());
 
         }
     }

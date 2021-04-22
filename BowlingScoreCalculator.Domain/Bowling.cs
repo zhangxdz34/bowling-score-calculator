@@ -19,6 +19,8 @@ namespace BowlingScoreCalculator.Domain
         }
 
         public int GetScore() => Pins.Scores().Take(10).Sum();
+
+        public bool FrameCompleted() => Pins.Scores().Count() == 10;
     }
 
 }
