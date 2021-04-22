@@ -7,9 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BowlingScoreCalculator.Api"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BowlingScoreCalculator.Service", "..\BowlingScoreCalculator.Service\BowlingScoreCalculator.Service.csproj", "{AF8F76C6-172A-44D8-BA15-0DB0A3A31AA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BowlingScoreCalculator.Tests", "..\BowlingScoreCalculator.ServiceTests\BowlingScoreCalculator.Tests.csproj", "{537C2064-A5DA-4C51-8E5B-380AB6BE0BEF}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BowlingScoreCalculator.Domain", "..\BowlingScoreCalculator.Domain\BowlingScoreCalculator.Domain.csproj", "{19A12EA6-F46F-4694-9A3B-EA51BD647A90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BowlingScoreCalculator.Tests", "..\BowlingScoreCalculator.Tests\BowlingScoreCalculator.Tests.csproj", "{4DBB86B8-6760-487F-AA3C-DABE11416BBE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,14 +25,14 @@ Global
 		{AF8F76C6-172A-44D8-BA15-0DB0A3A31AA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF8F76C6-172A-44D8-BA15-0DB0A3A31AA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF8F76C6-172A-44D8-BA15-0DB0A3A31AA3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{537C2064-A5DA-4C51-8E5B-380AB6BE0BEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{537C2064-A5DA-4C51-8E5B-380AB6BE0BEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{537C2064-A5DA-4C51-8E5B-380AB6BE0BEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{537C2064-A5DA-4C51-8E5B-380AB6BE0BEF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{19A12EA6-F46F-4694-9A3B-EA51BD647A90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{19A12EA6-F46F-4694-9A3B-EA51BD647A90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19A12EA6-F46F-4694-9A3B-EA51BD647A90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19A12EA6-F46F-4694-9A3B-EA51BD647A90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DBB86B8-6760-487F-AA3C-DABE11416BBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DBB86B8-6760-487F-AA3C-DABE11416BBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DBB86B8-6760-487F-AA3C-DABE11416BBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DBB86B8-6760-487F-AA3C-DABE11416BBE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
